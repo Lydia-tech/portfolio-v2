@@ -8,7 +8,7 @@ function Nav() {
             <span role="img" aria-label="cactus">
             🌵  
             </span>
-            Hello World!
+            Lydia Kennedy
           </a>
         </h2>
         <nav className="nav">
