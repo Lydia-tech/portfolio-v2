@@ -52,10 +52,13 @@ body {
   line-height: 1.5;
   font-size: 18px;
   letter-spacing: .1em;
-  background: var(--dark);
+  background: rgba(31, 41, 55);
   color: var(--light);
   font-family: 'Poiret One', cursive;
+}
 
+.nav {
+  background: rgba(31,41,55);
 }
 
 h1,
@@ -68,6 +71,7 @@ h6 {
   font-weight: 500;
   margin: 5px 0;
   line-height: 1.25;
+  background: rgba(31,41,55);
 }
 
 h1 {

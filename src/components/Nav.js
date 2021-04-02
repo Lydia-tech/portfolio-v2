@@ -1,9 +1,6 @@
 import React from 'react';
 
-
-
 function Nav() {
-    
     return (
       <header>
         <h2>
@@ -14,7 +11,7 @@ function Nav() {
             Hello World!
           </a>
         </h2>
-        <nav className="navbar navbar-light bg-light">
+        <nav className="nav">
           <ul className="flex-row">
           <button type="button" className="btn btn-secondary ">
             <a href="#about"className="text-light">About Me</a></button>

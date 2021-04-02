@@ -1,10 +1,9 @@
 const LinkedIn = ({ ...props }) => {
 	return (
 		<>
-			<span className='sr-only'>LinkedIn</span>
 			<svg
-				className={'w-25 h-25'}
-				fill='currentColor'
+				width='44'
+				height='44'
 				viewBox='0 0 20 20'
 				aria-hidden='true'
 				{...props}

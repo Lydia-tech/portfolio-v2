@@ -1,5 +1,4 @@
 import React from 'react';
-// import App from './App';
 import Github from './github-logo';
 import LinkedIn from './linkdin-icon';
 
@@ -16,11 +15,10 @@ const icons = [
 	}
 ];
 
-
 function Footer() {
 	return (
 		<footer className='footer'>
-			<div className='flex space-x-6 items-center h-10'>
+			<div style={{display: 'flex'}}>
 				{icons.map((icon, i) => (
 					<div key={i++}>
 						<a
@@ -28,7 +26,6 @@ function Footer() {
 							key={icon.name}
 							target='__blank'
 							rel='noopener noreferrer'
-							className="w-25 h-25"
 						>
 							{icon.icon}
 						</a>
