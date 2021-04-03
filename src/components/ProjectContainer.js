@@ -4,6 +4,12 @@ import Project from '../components/Project';
 
 const projects = [
 	{
+		title: 'Artist Store',
+		description: 'This MERN stack app allows you to search for art paintings.',
+		url: 'hidden-river-39393.herokuapp.com',
+        img: '/image/screenshot.art.painting.search.png'
+	},
+	{
 		title: 'Budget Tracker',
 		description: 'Keep track of your budget while on the go!',
 		url: 'fathomless-beyond-78323.herokuapp.com',
