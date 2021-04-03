@@ -6,7 +6,7 @@ const projects = [
 	{
 		title: 'Artist Store',
 		description: 'This MERN stack app allows you to search for art paintings.',
-		url: 'hidden-river-39393.herokuapp.com',
+		url: 'https://young-lake-28602.herokuapp.com',
         img: '/image/screenshot.art.painting.search.png'
 	},
 	{
